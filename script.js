@@ -11,7 +11,7 @@ if (formAgendamento) {
         const data = document.getElementById("data").value;
         const observacoes = document.getElementById("observacoes").value;
 
-        const telefone = "5521970674266";
+        const telefone = "557858975689const telefone = "5521970674266";";
 
         const mensagem =
             `Olá! Gostaria de agendar um atendimento na Pet Vida.\n\n` +

@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Vida | Pet Shop e Clínica Veterinária</title>
+    <meta name="description" content="Pet Vida: carinho, saúde e cuidado para seu melhor amigo.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#inicio" class="logo">Pet Vida</a>
+
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#contato" class="btn-agendar">Agendar consulta</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span>Carinho e cuidado para seu pet</span>
+
+                    <h1>
+                        Seu melhor amigo merece
+                        <strong>o melhor cuidado!</strong>
+                    </h1>
+
+                    <p>
+                        Banho, tosa, consultas veterinárias e muito
+                        carinho para quem faz parte da sua família.
+                    </p>
+
+                    <a href="#contato" class="btn-principal">
+                        Agende um atendimento
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+
+                <p class="subtitulo">
+                    Tudo o que seu pet precisa em um só lugar.
+                </p>
+
+                <div class="servicos-grid">
+
+    <article class="servico-card">
+        <img
+            src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600"
+            alt="Cão recebendo cuidados de higiene"
+        >
+        <div class="servico-info">
+            <h3>Banho e Tosa</h3>
+            <p>Higiene, beleza e bem-estar para seu pet.</p>
+        </div>
+    </article>
+
+    <article class="servico-card">
+        <img
+            src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=600"
+            alt="Cão em atendimento veterinário"
+        >
+        <div class="servico-info">
+            <h3>Consultas</h3>
+            <p>Atendimento veterinário com carinho.</p>
+        </div>
+    </article>
+
+    <article class="servico-card">
+        <img
+            src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600"
+            alt="Gato recebendo cuidados"
+        >
+        <div class="servico-info">
+            <h3>Vacinação</h3>
+            <p>Proteção e prevenção para seu melhor amigo.</p>
+        </div>
+    </article>
+
+</div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+    <div class="container sobre-content">
+
+        <div class="sobre-imagem">
+            <img
+                src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800"
+                alt="Cães passeando juntos"
+            >
+        </div>
+
+        <div class="sobre-texto">
+            <span class="destaque">QUEM SOMOS</span>
+
+            <h2>Amor pelos animais em cada detalhe</h2>
+
+            <p>
+                Na Pet Vida, acreditamos que os animais
+                merecem cuidado, respeito e muito carinho.
+            </p>
+
+            <p>
+                Oferecemos serviços de banho e tosa,
+                consultas veterinárias e vacinação,
+                sempre pensando no bem-estar do seu pet.
+            </p>
+
+            <a href="#contato" class="btn-principal">
+                Conheça nossos serviços
+            </a>
+        </div>
+
+    </div>
+</section>
+<
+        
+<section class="contato" id="contato">
+    <div class="container">
+        <h2>Agende um atendimento</h2>
+        <p>Preencha os dados e fale conosco pelo WhatsApp.</p>
+
+        <form id="formAgendamento" class="form-agendamento">
+
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome"
+                   placeholder="Digite seu nome" required>
+
+            <label for="pet">Nome do seu pet</label>
+            <input type="text" id="pet" name="pet"
+                   placeholder="Digite o nome do animal" required>
+
+            <label for="servico">Serviço desejado</label>
+            <select id="servico" name="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option value="Banho e Tosa">Banho e Tosa</option>
+                <option value="Consulta veterinária">Consulta veterinária</option>
+                <option value="Vacinação">Vacinação</option>
+            </select>
+
+            <label for="data">Data desejada</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="observacoes">Observações</label>
+            <textarea id="observacoes" name="observacoes"
+                      placeholder="Conte mais sobre o atendimento"></textarea>
+
+            <button type="submit" class="btn-principal">
+                Enviar pelo WhatsApp
+            </button>
+
+        </form>
+    </div>
+</section>
+
+         
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Pet Vida - Pet Shop e Clínica Veterinária</p>
+        <p>Feito com carinho para os animais.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
